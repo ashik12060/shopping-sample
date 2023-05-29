@@ -1,0 +1,71 @@
+.home-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+    margin:10px;
+    text-align: left;
+}
+.list{
+    text-align: left;
+    font-weight: bold;
+}
+.market-list{
+    margin: 10px;
+}
+.header{
+    margin-left: 90px;
+}
+.img-container{
+    width: 100%;
+    margin: 15px;
+    border-radius: 10px;
+}
+.club-container{
+    margin-left: 50px;
+}
+.coupon-container{
+    text-align: left;
+    background-color: rgb(204, 219, 233);
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-right: 130px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.styled-btn{
+    width: 250px;
+    padding: 8px;
+    border: none;
+    background-color: orangered;
+    color:white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.styled-btn:hover{
+    transition: 2s;
+    background-color: white;
+    border:1px solid orangered;
+    color:black;
+}
+.styled-btn2{
+    border: 1px solid black;
+    color:black;
+    margin-top:5px;
+    width: 250px;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media  screen and (max-width: 768px) {
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        text-align: left;
+    }
+    
+}

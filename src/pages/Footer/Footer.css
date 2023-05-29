@@ -1,0 +1,16 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 200px;
+}
+.footer-list{
+    text-align: left;
+}
+li{
+    list-style-type: none;
+}
+.container-main{
+    background-color: white;
+    margin-top: 50px;
+}
